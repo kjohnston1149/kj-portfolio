@@ -52,6 +52,12 @@ body {
   font-family: 'Cinzel', serif;
   font-weight: 700;
   line-height: 40%; }
+  .top a {
+    text-decoration: none;
+    color: #FFF;
+    transition: all 200ms ease-in-out; }
+    .top a:hover {
+      transform: scale(1.15); }
   .top #page-title {
     font-size: 5em; }
     @media only screen and (max-width: 915px) {
@@ -81,5 +87,9 @@ body {
   @media only screen and (max-width: 690px) {
     #bw-logo {
       display: none; } }
+
+#logo {
+  height: 50px;
+  transition: all 250ms ease-in-out; }
 
 /*# sourceMappingURL=application.css.map */
