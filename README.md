@@ -34,4 +34,4 @@ _This application uses HTML, CSS, JavaScript, and JQuerey as well as Materialize
 
 This website is licensed under the MIT license
 
-Copyright (c) 2016 **_Kevin Johnston_**
+Copyright (c) 2017 **_Kevin Johnston_**
