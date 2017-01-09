@@ -21,6 +21,10 @@
   width: 100%;
   img {
     height: 300px;
+    transition: all 250ms ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
 }
