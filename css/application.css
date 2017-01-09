@@ -32,8 +32,10 @@ body {
       height: 200px; } }
 
 .top {
+  justify-content: center;
   font-family: 'Cinzel', serif;
-  font-weight: 700; }
+  font-weight: 700;
+  line-height: 40%; }
   .top #page-title {
     font-size: 5em; }
     @media only screen and (max-width: 915px) {

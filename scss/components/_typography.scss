@@ -1,6 +1,8 @@
 .top {
+  justify-content: center;
   font-family: 'Cinzel', serif;
   font-weight: 700;
+  line-height: 40%;
   #page-title {
     font-size: 5em;
     @media only screen and (#{$break-tablet}) {
