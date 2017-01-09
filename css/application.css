@@ -4,7 +4,30 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-h2 {
-  color: red; }
+body {
+  font-family: 'Dosis', sans-serif; }
+
+.white-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.top {
+  font-family: 'Cinzel', serif;
+  font-weight: 700; }
+  .top #page-title {
+    font-size: 5em; }
+    @media only screen and (max-width: 915px) {
+      .top #page-title {
+        font-size: 3em; } }
+    @media only screen and (max-width: 690px) {
+      .top #page-title {
+        font-size: 2em; } }
+  .top #page-subtitle {
+    font-size: 2em; }
+    @media only screen and (max-width: 915px) {
+      .top #page-subtitle {
+        font-size: 1em; } }
 
 /*# sourceMappingURL=application.css.map */
