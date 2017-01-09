@@ -1,6 +1,11 @@
 .white-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @extend %box-format;
+  @extend %box-height;
+  background-color: $light-color;
+}
+.black-box {
+  @extend %box-format;
+  @extend %box-height;
+  background-color: $dark-color;
+  color: $light-color;
 }

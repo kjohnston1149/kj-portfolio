@@ -5,13 +5,31 @@ html {
   box-sizing: inherit; }
 
 body {
+  position: relative;
   font-family: 'Dosis', sans-serif; }
 
 .white-box {
+  background-color: #FFF; }
+
+.black-box {
+  background-color: #000;
+  color: #FFF; }
+
+.white-box, .black-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center; }
+
+.white-box, .black-box {
+  height: 504px;
+  width: 100vw; }
+  @media only screen and (max-width: 915px) {
+    .white-box, .black-box {
+      height: 350px; } }
+  @media only screen and (max-width: 690px) {
+    .white-box, .black-box {
+      height: 200px; } }
 
 .top {
   font-family: 'Cinzel', serif;
@@ -29,5 +47,21 @@ body {
     @media only screen and (max-width: 915px) {
       .top #page-subtitle {
         font-size: 1em; } }
+
+#bw-logo {
+  height: 305px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 351px; }
+  @media only screen and (max-width: 915px) {
+    #bw-logo {
+      height: 205px;
+      top: 247px; } }
+  @media only screen and (max-width: 690px) {
+    #bw-logo {
+      display: none; } }
 
 /*# sourceMappingURL=application.css.map */

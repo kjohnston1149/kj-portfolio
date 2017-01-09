@@ -1,0 +1,17 @@
+#bw-logo {
+  height: 305px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 351px;
+  @media only screen and (#{$break-tablet}) {
+      height: 205px;
+      top: 247px;
+    }
+  @media only screen and (#{$break-mobile}) {
+      display: none;
+    }
+
+}

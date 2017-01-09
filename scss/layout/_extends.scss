@@ -1,0 +1,18 @@
+%box-format {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+%box-height {
+  height: 504px;
+  width: 100vw;
+
+  @media only screen and (#{$break-tablet}) {
+      height: 350px;
+    }
+  @media only screen and (#{$break-mobile}) {
+      height: 200px;
+    }
+}
