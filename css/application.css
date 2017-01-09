@@ -9,9 +9,11 @@ body {
   font-family: 'Dosis', sans-serif; }
 
 .white-box {
+  height: 100%;
   background-color: #FFF; }
 
 .black-box {
+  height: 100%;
   background-color: #000;
   color: #FFF; }
 
@@ -20,6 +22,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 10px;
   width: 100%; }
   .img-gallery img {
     height: 300px; }
@@ -30,14 +33,14 @@ body {
   justify-content: flex-start;
   align-items: center; }
 
-.white-box, .black-box {
+.top {
   height: 504px;
   width: 100vw; }
   @media only screen and (max-width: 915px) {
-    .white-box, .black-box {
+    .top {
       height: 350px; } }
   @media only screen and (max-width: 690px) {
-    .white-box, .black-box {
+    .top {
       height: 200px; } }
 
 .top {
