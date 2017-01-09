@@ -6,7 +6,9 @@ html {
 
 body {
   position: relative;
-  font-family: 'Dosis', sans-serif; }
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  padding: 0; }
 
 .white-box {
   height: 100%;
