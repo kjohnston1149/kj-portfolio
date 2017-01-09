@@ -15,6 +15,15 @@ body {
   background-color: #000;
   color: #FFF; }
 
+.img-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%; }
+  .img-gallery img {
+    height: 300px; }
+
 .white-box, .black-box {
   display: flex;
   flex-direction: column;

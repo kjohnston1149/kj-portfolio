@@ -9,3 +9,14 @@
   background-color: $dark-color;
   color: $light-color;
 }
+.img-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  img {
+    height: 300px;
+  }
+
+}
