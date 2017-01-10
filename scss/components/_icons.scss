@@ -1,3 +1,15 @@
+.logo{
+  height: 50px;
+  transition: all 250ms ease-in-out;
+}
+
+#top-logo {
+  display: none;
+  @media only screen and (#{$break-mobile}) {
+      display: block;
+    }
+}
+
 #bw-logo {
   height: 305px;
   position: absolute;
@@ -7,16 +19,11 @@
   margin-right: auto;
   top: 351px;
   @media only screen and (#{$break-tablet}) {
-      height: 205px;
-      top: 247px;
+      height: 180px;
+      top: 260px;
     }
   @media only screen and (#{$break-mobile}) {
       display: none;
     }
 
-}
-
-#logo {
-  height: 50px;
-  transition: all 250ms ease-in-out;
 }

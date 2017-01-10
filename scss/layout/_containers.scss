@@ -1,5 +1,6 @@
 .top {
   @extend %box-height;
+  
 }
 .white-box {
   @extend %box-format;
@@ -11,6 +12,7 @@
   height: 100%;
   background-color: $dark-color;
   color: $light-color;
+
 }
 .img-gallery {
   display: flex;

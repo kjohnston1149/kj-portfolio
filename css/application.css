@@ -10,6 +10,15 @@ body {
   margin: 0;
   padding: 0; }
 
+h1 {
+  font-size: 3em; }
+  @media only screen and (max-width: 915px) {
+    h1 {
+      font-size: 2.5em; } }
+  @media only screen and (max-width: 690px) {
+    h1 {
+      font-size: 1.75em; } }
+
 .white-box {
   height: 100%;
   background-color: #FFF; }
@@ -53,9 +62,10 @@ body {
   text-align: center;
   font-family: 'Cinzel', serif;
   font-weight: 700;
-  line-height: 40%; }
+  line-height: 50%; }
   .top a {
     text-decoration: none;
+    font-family: 'Dosis', sans-serif;
     color: #FFF;
     transition: all 200ms ease-in-out; }
     .top a:hover {
@@ -67,12 +77,25 @@ body {
         font-size: 3em; } }
     @media only screen and (max-width: 690px) {
       .top #page-title {
-        font-size: 2em; } }
+        font-size: 2.25em; } }
   .top #page-subtitle {
     font-size: 2em; }
     @media only screen and (max-width: 915px) {
       .top #page-subtitle {
-        font-size: 1em; } }
+        font-size: 1.5em; } }
+    @media only screen and (max-width: 690px) {
+      .top #page-subtitle {
+        font-size: 1.15em; } }
+
+.logo {
+  height: 50px;
+  transition: all 250ms ease-in-out; }
+
+#top-logo {
+  display: none; }
+  @media only screen and (max-width: 690px) {
+    #top-logo {
+      display: block; } }
 
 #bw-logo {
   height: 305px;
@@ -84,14 +107,10 @@ body {
   top: 351px; }
   @media only screen and (max-width: 915px) {
     #bw-logo {
-      height: 205px;
-      top: 247px; } }
+      height: 180px;
+      top: 260px; } }
   @media only screen and (max-width: 690px) {
     #bw-logo {
       display: none; } }
-
-#logo {
-  height: 50px;
-  transition: all 250ms ease-in-out; }
 
 /*# sourceMappingURL=application.css.map */
