@@ -1,18 +1,32 @@
 .top {
   @extend %box-height;
-  
+  .black-box {
+    height: 200px;
+  }
 }
 .white-box {
   @extend %box-format;
   height: 100%;
+  width: 100vw;
+
   background-color: $light-color;
 }
 .black-box {
   @extend %box-format;
   height: 100%;
+  width: 100vw;
+
   background-color: $dark-color;
   color: $light-color;
 
+}
+
+.menu {
+  position: relative;
+  top: 10%;
+  @media only screen and (#{$break-mobile}) {
+      top: auto;
+    }
 }
 .img-gallery {
   display: flex;
@@ -27,6 +41,9 @@
     &:hover {
       transform: scale(1.05);
     }
+    // @media only screen and (#{$break-mobile}) {
+    //   width: 100%;
+    // }
   }
 
 }

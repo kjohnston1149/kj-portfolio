@@ -5,10 +5,16 @@ html {
   box-sizing: inherit; }
 
 body {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-right: auto;
+  margin: auto;
   font-family: 'Dosis', sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  max-width: 1200px; }
 
 h1 {
   font-size: 3em; }
@@ -19,14 +25,26 @@ h1 {
     h1 {
       font-size: 1.75em; } }
 
+.top .black-box {
+  height: 200px; }
+
 .white-box {
   height: 100%;
+  width: 100vw;
   background-color: #FFF; }
 
 .black-box {
   height: 100%;
+  width: 100vw;
   background-color: #000;
   color: #FFF; }
+
+.menu {
+  position: relative;
+  top: 10%; }
+  @media only screen and (max-width: 690px) {
+    .menu {
+      top: auto; } }
 
 .img-gallery {
   display: flex;
@@ -48,11 +66,11 @@ h1 {
   align-items: center; }
 
 .top {
-  height: 504px;
+  height: 400px;
   width: 100vw; }
   @media only screen and (max-width: 915px) {
     .top {
-      height: 350px; } }
+      height: 300px; } }
   @media only screen and (max-width: 690px) {
     .top {
       height: 200px; } }
@@ -63,13 +81,15 @@ h1 {
   font-family: 'Cinzel', serif;
   font-weight: 700;
   line-height: 50%; }
-  .top a {
-    text-decoration: none;
-    font-family: 'Dosis', sans-serif;
-    color: #FFF;
-    transition: all 200ms ease-in-out; }
-    .top a:hover {
-      transform: scale(1.15); }
+  .top .menu {
+    line-height: normal; }
+    .top .menu a {
+      text-decoration: none;
+      font-family: 'Dosis', sans-serif;
+      color: #FFF;
+      transition: all 200ms ease-in-out; }
+      .top .menu a:hover {
+        transform: scale(1.15); }
   .top #page-title {
     font-size: 5em; }
     @media only screen and (max-width: 915px) {
@@ -98,19 +118,17 @@ h1 {
       display: block; } }
 
 #bw-logo {
-  height: 305px;
+  height: 220px;
   position: absolute;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  top: 351px; }
+  top: 290px; }
   @media only screen and (max-width: 915px) {
     #bw-logo {
-      height: 180px;
-      top: 260px; } }
+      height: 150px;
+      top: 225px; } }
   @media only screen and (max-width: 690px) {
     #bw-logo {
       display: none; } }
-
-/*# sourceMappingURL=application.css.map */

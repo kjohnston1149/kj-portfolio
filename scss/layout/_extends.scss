@@ -6,11 +6,11 @@
 }
 
 %box-height {
-  height: 504px;
+  height: 400px;
   width: 100vw;
 
   @media only screen and (#{$break-tablet}) {
-      height: 350px;
+      height: 300px;
     }
   @media only screen and (#{$break-mobile}) {
       height: 200px;

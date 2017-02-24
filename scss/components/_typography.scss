@@ -4,7 +4,9 @@
   font-family: 'Cinzel', serif;
   font-weight: 700;
   line-height: 50%;
-  a {
+  .menu {
+    line-height: normal;
+    a {
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
     color: $light-color;
@@ -13,6 +15,8 @@
       transform: scale(1.15);
     }
   }
+  }
+
   #page-title {
     font-size: 5em;
     @media only screen and (#{$break-tablet}) {

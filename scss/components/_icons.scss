@@ -11,16 +11,17 @@
 }
 
 #bw-logo {
-  height: 305px;
+  // display: none;
+  height: 220px;
   position: absolute;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  top: 351px;
+  top: 290px;
   @media only screen and (#{$break-tablet}) {
-      height: 180px;
-      top: 260px;
+      height: 150px;
+      top: 225px;
     }
   @media only screen and (#{$break-mobile}) {
       display: none;
