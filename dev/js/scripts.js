@@ -8,10 +8,10 @@ $(function () {
   });
 
   //Case Study Scroll
-  $("#project-link").click(function(event) {
+  $("#case-link").click(function(event) {
     event.preventDefault();
     $("html, body").animate({
-      scrollTop: $("#projects").offset().top}, 500);
+      scrollTop: $("#case-studies").offset().top}, 500);
     return false;
   });
 
