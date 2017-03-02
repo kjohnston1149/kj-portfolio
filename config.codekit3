@@ -7,7 +7,7 @@
 		"uuidString": "7A756CB4-8B0B-4700-B98D-60BE59540F33"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/.sass-cache\/03180b14affe0c2f855b1d335df6c00bba2c55b0\/_box-sizing.scssc": {
 		"ft": 8192,
@@ -2121,6 +2121,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/marine-network-bg.png": {
+		"ft": 32768,
+		"iS": 884682,
+		"oA": 0,
+		"oAP": "\/img\/marine-network-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/marine-qna.png": {
 		"ft": 32768,
 		"iS": 275082,
@@ -2186,7 +2194,7 @@
 		"uCM": 0
 		},
 	"\/scss\/application.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -4561,6 +4569,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -4889,6 +4901,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -4982,6 +4998,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},

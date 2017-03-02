@@ -1,20 +1,30 @@
 .top {
-  @extend %box-height;
+  height: 400px;
+  width: 100vw;
+
+  @media only screen and (#{$break-tablet}) {
+      height: 300px;
+    }
+  @media only screen and (#{$break-mobile}) {
+      height: 200px;
+    }
   .black-box {
     height: 200px;
   }
 }
 .white-box {
   @extend %box-format;
-  height: 100%;
-  width: 100vw;
+  @extend %box-height;
+  // height: 100%;
+  // width: 100vw;
 
   background-color: $light-color;
 }
 .black-box {
   @extend %box-format;
-  height: 100%;
-  width: 100vw;
+  @extend %box-height;
+  // height: 100%;
+  // width: 100vw;
 
   background-color: $dark-color;
   color: $light-color;
@@ -31,19 +41,41 @@
 .img-gallery {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
   margin-bottom: 10px;
   width: 100%;
-  img {
-    height: 300px;
-    transition: all 250ms ease-in-out;
-    &:hover {
-      transform: scale(1.05);
-    }
-    // @media only screen and (#{$break-mobile}) {
-    //   width: 100%;
-    // }
+  .big-tile {
+    width: 50%;
+    height: 400px;
+  @media only screen and (#{$break-tablet}) {
+        height: 300px;
+      }
+    @media only screen and (#{$break-mobile}) {
+        height: 200px;
+      }
   }
 
+  .small-tile {
+    width: 100%;
+    height: 50%;
+  }
+  // img {
+  //   height: 300px;
+  //   transition: all 250ms ease-in-out;
+  //   &:hover {
+  //     transform: scale(1.05);
+  //   }
+  //   @media only screen and (#{$break-mobile}) {
+  //     width: 100%;
+  //   }
+  // }
+
+}
+.red{
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
 }

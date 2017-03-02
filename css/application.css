@@ -5,10 +5,18 @@ html {
   box-sizing: inherit; }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   margin-right: auto;
   margin: auto;
   font-family: 'Dosis', sans-serif;
@@ -25,17 +33,22 @@ h1 {
     h1 {
       font-size: 1.75em; } }
 
-.top .black-box {
-  height: 200px; }
+.top {
+  height: 400px;
+  width: 100vw; }
+  @media only screen and (max-width: 915px) {
+    .top {
+      height: 300px; } }
+  @media only screen and (max-width: 690px) {
+    .top {
+      height: 200px; } }
+  .top .black-box {
+    height: 200px; }
 
 .white-box {
-  height: 100%;
-  width: 100vw;
   background-color: #FFF; }
 
 .black-box {
-  height: 100%;
-  width: 100vw;
   background-color: #000;
   color: #FFF; }
 
@@ -47,36 +60,66 @@ h1 {
       top: auto; } }
 
 .img-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-bottom: 10px;
   width: 100%; }
-  .img-gallery img {
-    height: 300px;
-    transition: all 250ms ease-in-out; }
-    .img-gallery img:hover {
-      transform: scale(1.05); }
+  .img-gallery .big-tile {
+    width: 50%;
+    height: 400px; }
+    @media only screen and (max-width: 915px) {
+      .img-gallery .big-tile {
+        height: 300px; } }
+    @media only screen and (max-width: 690px) {
+      .img-gallery .big-tile {
+        height: 200px; } }
+  .img-gallery .small-tile {
+    width: 100%;
+    height: 50%; }
+
+.red {
+  background-color: red; }
+
+.blue {
+  background-color: blue; }
+
+.green {
+  background-color: green; }
 
 .white-box, .black-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
-.top {
+.white-box, .black-box {
   height: 400px;
   width: 100vw; }
   @media only screen and (max-width: 915px) {
-    .top {
+    .white-box, .black-box {
       height: 300px; } }
   @media only screen and (max-width: 690px) {
-    .top {
+    .white-box, .black-box {
       height: 200px; } }
 
 .top {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   font-family: 'Cinzel', serif;
   font-weight: 700;
@@ -87,9 +130,11 @@ h1 {
       text-decoration: none;
       font-family: 'Dosis', sans-serif;
       color: #FFF;
+      -webkit-transition: all 200ms ease-in-out;
       transition: all 200ms ease-in-out; }
       .top .menu a:hover {
-        transform: scale(1.15); }
+        -webkit-transform: scale(1.15);
+                transform: scale(1.15); }
   .top #page-title {
     font-size: 5em; }
     @media only screen and (max-width: 915px) {
@@ -109,6 +154,7 @@ h1 {
 
 .logo {
   height: 50px;
+  -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out; }
 
 #top-logo {
