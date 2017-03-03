@@ -11,11 +11,12 @@ _This page will be the working porfolio for Kevin Johnston.  At the current time
 ## Setup/Installation Requirements
 
 1. Clone this repository at:
-  * https://github.com/kjohnston1149/kj-portfolio
+  * https://github.com/kjohnston1149/kjohnston1149.github.io
 2. Move into the project folder
 3. Open index.html in the browser of your choice (we suggest Chrome)
 4. Alternatively, if using Atom, run "$ apm install atom-live-server" in the command line and launch a live local server by using the short cut "ctrl-shift-3".  For more information, visit https://atom.io/packages/atom-live-server.
 5. To edit the SCSS files, run the command "$ sass --watch scss:css" in the command line.
+6. Alternatively, view live site at https://kjohnston1149.github.io/
 
 ## Known Bugs
 
