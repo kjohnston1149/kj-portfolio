@@ -22,6 +22,12 @@ h1 {
     }
 }
 
+h2 {
+  @media only screen and (#{$break-mobile}) {
+      font-size: 1.25em;
+    }
+}
+
 button {
   padding: 12px 32px;
   font-size: 20px;
