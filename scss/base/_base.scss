@@ -21,3 +21,30 @@ h1 {
       font-size: 1.75em;
     }
 }
+
+button {
+  padding: 12px 32px;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid 2px $light-color;
+  color: $light-color;
+  border-radius: 4px;
+  transition: all 300ms ease-in-out;
+  a {
+    color: $light-color;
+    text-decoration: none;
+    &:hover {
+      color: $dark-color;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: $light-color;
+    color: $dark-color;
+
+  }
+
+
+}

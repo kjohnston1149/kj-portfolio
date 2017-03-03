@@ -33,6 +33,27 @@ h1 {
     h1 {
       font-size: 1.75em; } }
 
+button {
+  padding: 12px 32px;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: solid 2px #FFF;
+  color: #FFF;
+  border-radius: 4px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out; }
+  button a {
+    color: #FFF;
+    text-decoration: none; }
+    button a:hover {
+      color: #000; }
+  button:hover {
+    cursor: pointer;
+    background-color: #FFF;
+    color: #000; }
+
 .top {
   height: 400px;
   width: 100vw; }
@@ -67,20 +88,49 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 10px;
-  width: 100%; }
+  color: #FFF;
+  width: 100vw;
+  height: 100vh; }
+  @media only screen and (max-width: 915px) {
+    .img-gallery {
+      height: 80vh; } }
+  @media only screen and (max-width: 690px) {
+    .img-gallery {
+      display: inline;
+      width: 100%; } }
   .img-gallery .big-tile {
     width: 50%;
-    height: 400px; }
-    @media only screen and (max-width: 915px) {
-      .img-gallery .big-tile {
-        height: 300px; } }
+    height: 100%; }
     @media only screen and (max-width: 690px) {
       .img-gallery .big-tile {
-        height: 200px; } }
+        width: 100%;
+        height: 300px; } }
   .img-gallery .small-tile {
     width: 100%;
     height: 50%; }
+    @media only screen and (max-width: 690px) {
+      .img-gallery .small-tile {
+        height: 300px;
+        width: 100%; } }
+
+#pdx-comedy {
+  content: "";
+  background-image: url("../img/pdx-comedy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(83, 27, 121, 0.2); }
+
+#marine-network {
+  content: "";
+  background-image: url("../img/marine-network-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden; }
 
 .red {
   background-color: red; }
@@ -92,6 +142,21 @@ h1 {
   background-color: green; }
 
 .white-box, .black-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.img-gallery .big-tile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
