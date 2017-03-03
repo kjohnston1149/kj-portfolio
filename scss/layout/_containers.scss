@@ -39,6 +39,7 @@
     }
 }
 .img-gallery {
+  @include clearfix;
   display: flex;
   flex-direction: row;
   color: $light-color;
@@ -49,12 +50,13 @@
   @media only screen and (#{$break-mobile}) {
 
       display: inline;
-      width: 100%;
+      // width: 100%;
     }
   h1 {
     margin: 0;
   }
   .big-tile {
+    @include clearfix;
     width: 50%;
     height: 100%;
     background-color: $dark-color;
@@ -67,11 +69,12 @@
   }
 
   .small-tile {
+    @include clearfix;
     width: 100%;
     height: 50%;
     @extend %img-gallery-flex;
     @media only screen and (#{$break-mobile}) {
-        height: 100%;
+        height: 300px;
         width: 100%;
       }
 
@@ -100,6 +103,10 @@
 #pdx-comedy {
   @include background-img("../img/pdx-comedy.jpg");
   background-color: transparentize($pdx-comedy-color, .8);
+    @media only screen and (#{$break-mobile}) {
+      height: 300px;
+      width: 100%;
+    }
 }
 
 #marine-network {
@@ -112,4 +119,7 @@
 
 #kj-img {
   @include background-img("../img/Kevin_Johnston.png");
+  @media only screen and (#{$break-mobile}) {
+      display: none;
+    }
 }
