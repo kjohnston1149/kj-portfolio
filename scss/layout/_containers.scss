@@ -45,14 +45,15 @@
   // justify-content: center;
   width: 100vw;
   height: 100vh;
-  @media only screen and (#{$break-tablet}) {
-    height: 80vh;
-      }
+  text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
   @media only screen and (#{$break-mobile}) {
 
       display: inline;
       width: 100%;
     }
+  h1 {
+    margin: 0;
+  }
   .big-tile {
     width: 50%;
     height: 100%;
@@ -68,6 +69,7 @@
   .small-tile {
     width: 100%;
     height: 50%;
+    @extend %img-gallery-flex;
     @media only screen and (#{$break-mobile}) {
         height: 100%;
         width: 100%;
@@ -76,6 +78,23 @@
   }
 
 
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.bio {
+  text-shadow: none;
+  width: 60%;
+  @media only screen and (#{$break-tablet}) {
+      width: 85%;
+    }
+  @media only screen and (#{$break-mobile}) {
+      width: 90%;
+    }
 }
 
 #pdx-comedy {
@@ -88,7 +107,7 @@
 }
 
 #qna {
-  @include background-img("../img/marine-qna.png");
+  @include background-img("../img/qna-bg.jpg");
 }
 
 #kj-img {

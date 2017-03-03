@@ -31,13 +31,14 @@ h1 {
       font-size: 2.5em; } }
   @media only screen and (max-width: 690px) {
     h1 {
-      font-size: 1.75em; } }
+      font-size: 2.2em; } }
 
 @media only screen and (max-width: 690px) {
   h2 {
     font-size: 1.25em; } }
 
 button {
+  margin: 5px;
   padding: 12px 32px;
   font-size: 20px;
   font-family: 'Dosis', sans-serif;
@@ -94,14 +95,14 @@ button {
           flex-direction: row;
   color: #FFF;
   width: 100vw;
-  height: 100vh; }
-  @media only screen and (max-width: 915px) {
-    .img-gallery {
-      height: 80vh; } }
+  height: 100vh;
+  text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black; }
   @media only screen and (max-width: 690px) {
     .img-gallery {
       display: inline;
       width: 100%; } }
+  .img-gallery h1 {
+    margin: 0; }
   .img-gallery .big-tile {
     width: 50%;
     height: 100%;
@@ -117,6 +118,26 @@ button {
       .img-gallery .small-tile {
         height: 100%;
         width: 100%; } }
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 10px; }
+
+.bio {
+  text-shadow: none;
+  width: 60%; }
+  @media only screen and (max-width: 915px) {
+    .bio {
+      width: 85%; } }
+  @media only screen and (max-width: 690px) {
+    .bio {
+      width: 90%; } }
 
 #pdx-comedy {
   content: "";
@@ -139,7 +160,7 @@ button {
 
 #qna {
   content: "";
-  background-image: url("../img/marine-qna.png");
+  background-image: url("../img/qna-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,7 +191,7 @@ button {
       -ms-flex-align: center;
           align-items: center; }
 
-.img-gallery .big-tile {
+.img-gallery .big-tile, .img-gallery .small-tile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,9 +199,8 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
