@@ -19,7 +19,7 @@ _This page will be the working porfolio for Kevin Johnston.  At the current time
 
 ## Known Bugs
 
-_N/A_
+1. In Firefox, for smaller screen sizes, the "Projects" section seems to break down and overlap the "About" section.
 
 ## Support and contact details
 
