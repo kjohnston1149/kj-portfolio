@@ -64,7 +64,7 @@ button:hover { cursor: pointer; background-color: #FFF; color: #000; }
 
 @media only screen and (max-width: 690px) { .bio { width: 90%; } }
 
-#pdx-comedy { content: ""; background-image: url("../img/pdx-comedy.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; position: relative; overflow: hidden; background-color: rgba(83, 27, 121, 0.2); }
+#pdx-comedy { content: ""; background-image: url("../img/pdx-comedy.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; position: relative; overflow: hidden; }
 
 @media only screen and (max-width: 690px) { #pdx-comedy { height: 300px; width: 100%; } }
 

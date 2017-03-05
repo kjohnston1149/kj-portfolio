@@ -102,7 +102,6 @@
 
 #pdx-comedy {
   @include background-img("../img/pdx-comedy.jpg");
-  background-color: transparentize($pdx-comedy-color, .8);
     @media only screen and (#{$break-mobile}) {
       height: 300px;
       width: 100%;
