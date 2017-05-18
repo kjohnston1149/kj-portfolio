@@ -2088,16 +2088,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/css\/application.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/application.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/application.css.map": {
 		"ft": 8192,
 		"oA": 2,
@@ -2220,12 +2210,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
 		},
 	"\/README.html": {
 		"ft": 8192,
@@ -3391,32 +3375,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/layout\/_columns.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/layout\/_containers.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/layout\/_containers.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/layout\/_extends.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/layout\/_extends.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
