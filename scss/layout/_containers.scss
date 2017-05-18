@@ -6,11 +6,9 @@
       height: 300px;
     }
   @media only screen and (#{$break-mobile}) {
-      height: 200px;
+      height: 50vh;
     }
-  .black-box {
-    height: 200px;
-  }
+
 }
 .white-box {
   @extend %box-format;

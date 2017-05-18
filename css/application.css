@@ -24,9 +24,7 @@ button:hover { cursor: pointer; background-color: #FFF; color: #000; }
 
 @media only screen and (max-width: 915px) { .top { height: 300px; } }
 
-@media only screen and (max-width: 690px) { .top { height: 200px; } }
-
-.top .black-box { height: 200px; }
+@media only screen and (max-width: 690px) { .top { height: 50vh; } }
 
 .white-box { background-color: #FFF; }
 
@@ -84,7 +82,7 @@ button:hover { cursor: pointer; background-color: #FFF; color: #000; }
 
 @media only screen and (max-width: 915px) { .white-box, .black-box { height: 300px; } }
 
-@media only screen and (max-width: 690px) { .white-box, .black-box { height: 200px; } }
+@media only screen and (max-width: 690px) { .white-box, .black-box { height: 50vh; } }
 
 .top { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; font-family: 'Cinzel', serif; font-weight: 700; line-height: 50%; }
 
