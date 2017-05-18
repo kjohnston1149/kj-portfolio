@@ -7,7 +7,7 @@
 		"uuidString": "7A756CB4-8B0B-4700-B98D-60BE59540F33"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25813",
 "files": {
 	"\/.sass-cache\/03180b14affe0c2f855b1d335df6c00bba2c55b0\/_box-sizing.scssc": {
 		"ft": 8192,
@@ -2119,7 +2119,10 @@
 		"oA": 0,
 		"oAP": "\/img\/dual-color-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/Kevin_Johnston.png": {
 		"ft": 32768,
@@ -2127,7 +2130,10 @@
 		"oA": 0,
 		"oAP": "\/img\/Kevin_Johnston.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/marine-network-bg.png": {
 		"ft": 32768,
@@ -2135,7 +2141,10 @@
 		"oA": 0,
 		"oAP": "\/img\/marine-network-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/marine-qna.png": {
 		"ft": 32768,
@@ -2143,7 +2152,10 @@
 		"oA": 0,
 		"oAP": "\/img\/marine-qna.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/pdx-comedy.jpg": {
 		"ft": 16384,
@@ -2151,7 +2163,9 @@
 		"oA": 0,
 		"oAP": "\/img\/pdx-comedy.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/portland-comedy.png": {
 		"ft": 32768,
@@ -2159,7 +2173,10 @@
 		"oA": 0,
 		"oAP": "\/img\/portland-comedy.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/qna-bg.JPG": {
 		"ft": 16384,
@@ -2167,7 +2184,9 @@
 		"oA": 0,
 		"oAP": "\/img\/qna-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/w-on-black-logo.png": {
 		"ft": 32768,
@@ -2175,7 +2194,10 @@
 		"oA": 0,
 		"oAP": "\/img\/w-on-black-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/wcmn-case-study.png": {
 		"ft": 32768,
@@ -2183,7 +2205,10 @@
 		"oA": 0,
 		"oAP": "\/img\/wcmn-case-study.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/west-coast-marine-network.png": {
 		"ft": 32768,
@@ -2191,7 +2216,40 @@
 		"oA": 0,
 		"oAP": "\/img\/west-coast-marine-network.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README.html",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/scss\/application.scss": {
 		"aP": 1,
@@ -4369,6 +4427,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -4653,6 +4715,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -4848,6 +4914,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -5448,7 +5518,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -5471,14 +5542,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -5541,7 +5604,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
